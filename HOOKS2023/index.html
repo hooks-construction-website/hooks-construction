@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction Company</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon_slim.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+</head>
+<body>
+  <header>
+    <img src="nav-logo.png" alt="">
+  </header>
+
+  <nav class="sticky">
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#services">SERVICES</a></li>
+      <li><a href="#gallery">WORK GALLERY</a></li>
+      <li><a href="#bio">ABOUT US</a></li>
+      <li><a href="#testimonials">TESTIMONIALS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero" id="home">
+    <h2>Expert Construction and Renovation Services in the Greater Seattle Area.</h2>
+    <img src="con1.jpg" class="hero-img">
+  </div>
+  <div class="divider red"><div class="subdivider-up"></div></div>
+
+  <div class="content even" id="services">
+    <h2>Services</h2>
+
+    <div class="service-container">
+      <div class="service-wrapper">
+        <h3>Bath</h3>
+        <img class="service-img" src="con1.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna
+           aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <div class="service-wrapper">
+        <h3>Build</h3>
+        <img class="service-img" src="con1.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna
+           aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <div class="service-wrapper">
+        <h3>Renovate</h3>
+        <img class="service-img" src="con1.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna
+           aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="divider bronze"><div class="subdivider-down"></div></div>
+
+  <div class="content odd" id="gallery">
+    <h2>Project Gallery</h2>
+    <p>Content for the Project Gallery section...</p>
+    <div class="carousel-grid">
+
+      <div class="carousel-wrapper">
+        <h3>Project Name</h3>
+        <div class="carousel">
+          <div><img src="con1.jpg" alt="con 1" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con2.jpg" alt="con 2" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con3.jpg" alt="con 3" class="carousel-img" onclick="openLightbox(this)"></div>
+        </div>
+      </div>
+
+      <div class="carousel-wrapper">
+        <h3>Project Name</h3>
+        <div class="carousel">
+          <div><img src="con1.jpg" alt="con 1" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con2.jpg" alt="con 2" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con3.jpg" alt="con 3" class="carousel-img" onclick="openLightbox(this)"></div>
+        </div>
+      </div>
+
+      <div class="carousel-wrapper">
+        <h3>Project Name</h3>
+        <div class="carousel">
+          <div><img src="con1.jpg" alt="con 1" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con2.jpg" alt="con 2" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con3.jpg" alt="con 3" class="carousel-img" onclick="openLightbox(this)"></div>
+        </div>
+      </div>
+
+      <div class="carousel-wrapper">
+        <h3>Project Name</h3>
+        <div class="carousel">
+          <div><img src="con1.jpg" alt="con 1" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con2.jpg" alt="con 2" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con3.jpg" alt="con 3" class="carousel-img" onclick="openLightbox(this)"></div>
+        </div>
+      </div>
+
+      <div class="carousel-wrapper">
+        <h3>Project Name</h3>
+        <div class="carousel">
+          <div><img src="con1.jpg" alt="con 1" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con2.jpg" alt="con 2" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con3.jpg" alt="con 3" class="carousel-img" onclick="openLightbox(this)"></div>
+        </div>
+      </div>
+
+      <div class="carousel-wrapper">
+        <h3>Project Name</h3>
+        <div class="carousel">
+          <div><img src="con1.jpg" alt="con 1" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con2.jpg" alt="con 2" class="carousel-img" onclick="openLightbox(this)"></div>
+          <div><img src="con3.jpg" alt="con 3" class="carousel-img" onclick="openLightbox(this)"></div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  <div id="lightbox-modal" class="lightbox-modal">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-image" class="lightbox-image" src="" alt="">
+  </div>
+  <div class="divider yellow"><div class="subdivider-up"></div></div>
+
+  <div class="content even" id="bio">
+    <h2>About Us</h2>
+    <p>Hooks Construction is a Lorem ipsum dolor sit amet,
+       consectetur adipiscing elit, sed do eiusmod tempor 
+       incididunt ut labore et dolore magna aliqua. Ut enim 
+       ad minim veniam, quis nostrud exercitation ullamco 
+       laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit
+         esse cillum dolore eu fugiat nulla pariatur. 
+         Excepteur sint occaecat cupidatat non proident, sunt
+          in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <img src="placeholder-headshot.png" class="headshot">
+    <h3>99 Years of Experience in Building</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna 
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+      ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Duis aute irure dolor in reprehenderit in voluptate velit
+       esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui
+         officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div class="divider red"><div class="subdivider-down"></div></div>
+
+  <div class="content odd" id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonials-grid">
+
+      <div class="testimonial">
+        <h3>Ryan Garcia - Total Remodel</h3>
+        <p>- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+      </div>
+      <div class="testimonial">
+        <h3>Ryan Garcia - Room Construction</h3>
+        <p>- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+      </div>
+      <div class="testimonial">
+        <h3>Ryan Garcia - Deck and Patio</h3>
+        <p>- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="divider yellow"><div class="subdivider-up"></div></div>
+
+  <div class="content even" id="contact">
+    <h2>Contact</h2>
+    <h3>E-Mail:    FirstLast@website.com</h3>
+    <h3>Phone:    (123)-456-7890</h3>
+    <h4>We will get back to you within 99 business days!</h4>
+  </div>
+  <div class="divider red"><div class="subdivider-down"></div></div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <h4>Contact Us</h4>
+        <p>123 Main Street</p>
+        <p>City, State ZIP</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@example.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Your Construction Company. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        centerMode: true,
+        centerPadding: '0',
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false
+            }
+          }
+        ]
+      });
+
+      var contentHeight = $('.content').outerHeight();
+      $('.carousel img').css('max-height', contentHeight);
+    });
+  </script>
+  <script>
+    function openLightbox(image) {
+      var modal = document.getElementById("lightbox-modal");
+      var modalImage = document.getElementById("lightbox-image");
+  
+      modal.style.display = "flex";
+      modalImage.src = image.src;
+    }
+  
+    function closeLightbox() {
+      var modal = document.getElementById("lightbox-modal");
+      modal.style.display = "none";
+    }
+  </script>
+  <script>
+    function toggleService(serviceTitle) {
+      var explanation = serviceTitle.nextElementSibling;
+      explanation.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
